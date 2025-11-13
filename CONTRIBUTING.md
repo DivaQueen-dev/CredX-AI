@@ -43,31 +43,37 @@ Ready to make a change? Here's the step-by-step process.
 
 Follow the installation instructions from the `README.md` to get the project running locally.
 
-1.  **Fork the repository** on GitHub.
-2.  **Clone your fork** to your local machine:
-  	```bash
-  	git clone [https://github.com/YOUR_USERNAME/credx-ai.git](https://github.com/YOUR_USERNAME/credx-ai.git)
-  	cd credx-ai
-  	```
-3.  **Create a Virtual Environment:**
-  	```bash
-  	python -m venv venv
-  	```
-4.  **Activate it:**
-  	* On Windows: `venv\Scripts\activate`
-  	* On macOS/Linux: `source venv/bin/activate`
-5.s**Install Dependencies:**
-  	```bash
-  	pip install Flask Flask-Cors pandas "sentence-transformers>=2.2.0" torch torchvision torchaudio PyMuPDF "google-generativeai>=0.3.0"
-  	```
-6.s**Add Your API Key:**
-  	* Open `app.py`.
-  	* Replace `API_KEY = "YOUR_GEMINI_API_KEY"` with your actual Google Gemini API key.
-7.s**Run the Server:**
-  	```bash
-  	python app.py
-  	```
-  	You should now be able to access the app at `http://127.0.0.1:5000`.
+1.  **Fork the repository** on GitHub.
+
+2.  **Clone your fork** to your local machine:
+    ```bash
+    git clone [https://github.com/YOUR_USERNAME/credx-ai.git](https://github.com/YOUR_USERNAME/credx-ai.git)
+    cd credx-ai
+    ```
+
+3.  **Create a Virtual Environment:**
+    ```bash
+    python -m venv venv
+    ```
+
+4.  **Activate it:**
+    * On Windows: `venv\Scripts\activate`
+    * On macOS/Linux: `source venv/bin/activate`
+
+5.  **Install Dependencies:**
+    ```bash
+    pip install Flask Flask-Cors pandas "sentence-transformers>=2.2.0" torch torchvision torchaudio PyMuPDF "google-generativeai>=0.3.0"
+    ```
+
+6.  **Add Your API Key:**
+    * Open `app.py`.
+    * Replace `API_KEY = "YOUR_GEMINI_API_KEY"` with your actual Google Gemini API key.
+
+7.  **Run the Server:**
+    ```bash
+    python app.py
+    ```
+    You should now be able to access the app at `http://127.0.0.1:5000`.
 
 ### Step 2: Find Something to Work On
 
@@ -77,31 +83,35 @@ Follow the installation instructions from the `README.md` to get the project run
 
 ### Step 3: Make Your Changes (The Git Workflow)
 
-1.  **Create a new branch** for your feature or bugfix. This keeps your changes organized.
-  	```bash
-  	# Use a descriptive branch name
-  	git checkout -b feature/add-job-scraper
-  	# or
-  	git checkout -b fix/resume-parser-bug
-  	```
-2.s**Write your code!** Make your changes and test them locally to make sure everything still works.
-3.s**Commit your changes** with a clear and concise message.
-  	```bash
-  	git add .
-  	git commit -m "feat: Add initial job scraping module"
-  	```
+1.  **Create a new branch** for your feature or bugfix. This keeps your changes organized.
+    ```bash
+    # Use a descriptive branch name
+    git checkout -b feature/add-job-scraper
+    # or
+    git checkout -b fix/resume-parser-bug
+    ```
+
+2.  **Write your code!** Make your changes and test them locally to make sure everything still works.
+
+3.  **Commit your changes** with a clear and concise message.
+    ```bash
+    git add .
+    git commit -m "feat: Add initial job scraping module"
+    ```
 
 ### Step 4: Submit a Pull Request (PR)
 
-1.  **Push your branch** to your fork on GitHub:
-  	```bash
-  	git push origin feature/add-job-scraper
-  	```
-2.  **Open a Pull Request** on the original `credx-ai` repository.
-3.  In your PR description, please provide:
-  	* **A clear description** of what you changed.
-  	* **A link to the issue** it solves (e.g., `Fixes #42`).
-  	* **Any screenshots or GIFs** if you made changes to the UI.
+1.  **Push your branch** to your fork on GitHub:
+    ```bash
+    git push origin feature/add-job-scraper
+    ```
+
+2.  **Open a Pull Request** on the original `credx-ai` repository.
+
+3.  In your PR description, please provide:
+    * **A clear description** of what you changed.
+    * **A link to the issue** it solves (e.g., `Fixes #42`).
+    * **Any screenshots or GIFs** if you made changes to the UI.
 
 We'll review your PR as soon as we can, provide feedback, and get it merged.
 
