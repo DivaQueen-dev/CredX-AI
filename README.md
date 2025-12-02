@@ -1,3 +1,24 @@
+# **📑 Table of Contents**
+
+1. [CredX AI - Your Personal Career Trajectory Engine](#credx-ai---your-personal-career-trajectory-engine)
+2. [🚀 The Big Idea](#-the-big-idea)
+3. [🛠️ How We Built It (Hackathon Story)](#️-how-we-built-it-hackathon-story)
+   * [Tech Stack Overview](#tech-stack-overview)
+4. [⚙️ Run It Yourself](#️-run-it-yourself)
+   * [Requirements](#requirements)
+   * [Project Structure](#project-structure)
+   * [Installation](#installation)
+5. [📖 How to Use](#-how-to-use)
+6. [🏆 Why CredX AI?](#-why-credx-ai)
+7. [💡 Future Improvements](#-future-improvements)
+8. [🖥️ Output](#output)
+9. [🚀 Live Demo](#-live-demo)
+10. [🎥 Demo Link](#demo-link)
+11. [🤝 Contributing](#-contributing)
+12. [📜 License](#-license)
+
+
+
 # CredX AI - Your Personal Career Trajectory Engine
 
 Ever felt like you're shouting into the void when applying for jobs? You spend hours polishing your resume and sending it out, only to get back a flood of irrelevant listings. We've been there, and we thought: "There has to be a better way."
