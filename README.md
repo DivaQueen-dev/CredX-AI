@@ -177,6 +177,19 @@ credx-ai/
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
+## 🙏 Mentors
+### Our Guiding Stars 🌟
+
+- **Mehvish (@Mehvish1234)**  
+  *Collaborator | Technical Mentor*  
+  🔗 https://github.com/Mehvish1234
+
+- **Parag Ekbote (@ParagEkbote)**  
+  *Collaborator | Project Mentor*  
+  🔗 https://github.com/ParagEkbote
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
 ## 🤝 Contributing
 
 We'd love your feedback and contributions! Feel free to fork this repo, open issues, or submit pull requests.
